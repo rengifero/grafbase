@@ -1,0 +1,15 @@
+type MiembrosList @model {
+  id: ID!
+  miembrosId: [ID!]
+}
+
+type Miembro @model {
+  id: ID!
+  nombre: String!
+  numeroVida: String! @unique
+  iglesia: String
+  guia: String
+  fechaNacimiento: String
+  fechaBautismo: String! 
+  photoUrl: URL!
+}
