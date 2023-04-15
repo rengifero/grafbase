@@ -11,5 +11,5 @@ type Miembro @model {
   guia: String
   fechaNacimiento: String
   fechaBautismo: String! 
-  photoUrl: URL!
+  photoUrl: URL! 
 }

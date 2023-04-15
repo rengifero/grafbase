@@ -1,0 +1,9 @@
+{
+"editor.suggest.showFolders": true,
+"files.exclude": {
+    "**/.DS_Store": true,
+    "grafbase/": false,
+    "/.vscode": true
+},
+"explorer.fileNesting.enabled": true 
+}
