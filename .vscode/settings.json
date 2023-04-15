@@ -3,7 +3,7 @@
 "files.exclude": {
     "**/.DS_Store": true,
     "grafbase/": false,
-    "/.vscode": true
+    "/.vscode": false
 },
 "explorer.fileNesting.enabled": true 
 }
