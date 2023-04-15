@@ -1,4 +1,7 @@
-
+type MiembrosList @model {
+  id: ID!
+  miembrosId: [ID!]
+}
 
 type Miembro @model {
   id: ID!
